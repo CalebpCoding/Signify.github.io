@@ -38,9 +38,15 @@ This is the css for the help and information page
     --main-text: white;
 }
 
+html, body {
+    font: var(--text-style);
+    color: var(--main-text);
+    margin: 0px;
+    border: 0px;
+}
+
 .con {
     position:relative;
-    left:50%;
     line-height: normal;
 }
 
@@ -62,24 +68,12 @@ p{
     font-size: large;
     text-align: center;
     margin:auto;
-    width: 230%;
 }
 
 ul li {
     font-size: medium;
     font-weight: 300;
     margin-bottom:2%;
-}
-
-
-
-html, body {
-    font: var(--text-style);
-    color: var(--main-text);
-    padding: 10px;
-    max-width: 40vw; /* Keeps content on the left */
-    margin: 0px;
-    border: 0px;
 }
 
 p {
