@@ -71,22 +71,6 @@ ul li {
     margin-bottom:2%;
 }
 
-.dark-mode {
-    --color1: #cb2922;
-    --text1: white;
-    --color2: #ff4942;
-    --text2: black;
-    --color3: #8ed6e6;
-    --text3: black;
-    --color4: #00bcd4;
-    --text4: black;
-    --color5: #0091a9;
-    --text5: black;
-
-    --background: #333;
-    --main-text: white;
-}
-
 
 
 html, body {
@@ -130,23 +114,4 @@ details {
     border-radius: 10px;
 }
 
-#submitted-text {
-    background-color: yellow;
-}
-
-#asl-translations {
-    background-color: orange;
-}
-
-#generated-results {
-    background-color: green;
-}
-
-#citations {
-    background-color: blue;
-}
-
-#disclaimer {
-    background-color: purple;
-}
 
