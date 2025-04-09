@@ -22,10 +22,20 @@ This is the css for the help and information page
     --text-style: 700 12px / 12px Verdana, sans-serif;
 }
 
-.lm {
-    background-color: var(--color6);
-    color: var(--text1);
-    font-size: medium;
+.dark-mode {
+    --color1: #cb2922;
+    --text1: white;
+    --color2: #ff4942;
+    --text2: black;
+    --color3: #8ed6e6;
+    --text3: black;
+    --color4: #00bcd4;
+    --text4: black;
+    --color5: #0091a9;
+    --text5: white;
+
+    --background: #333;
+    --main-text: white;
 }
 
 .con {
